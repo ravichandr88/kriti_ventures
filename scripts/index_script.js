@@ -70,8 +70,8 @@ contactModalCross.addEventListener('click',()=>{
 const companyName=document.querySelector('.companyname');
 const heroBg=document.querySelector('.herobg');
 // Update images in this array
-const arr=['herobg1.jpg','herobg2.jpg','herobg3.jpg','herobg4.jpg'];
-
+// const arr=['herobg1.jpg','herobg2.jpg','herobg3.jpg','herobg4.jpg'];
+const arr=['herobg1.jpg','herobg1.jpg','herobg1.jpg','herobg1.jpg'];
 let i=0;
 window.setInterval(()=>{
     if(i===arr.length)
