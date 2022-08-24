@@ -9,11 +9,11 @@ const mobileDropDownCross=document.querySelector('.mobileDropDownCross');
 
 
 mobileHamburger.addEventListener('click',()=>{
-    mobileDropDown.style="left:0px";
+    mobileDropDown.style="left:80%";
 })
 
 mobileDropDownCross.addEventListener('click',()=>{
-    mobileDropDown.style="left:-20rem";
+    mobileDropDown.style="left:100%";
    
 })
 
